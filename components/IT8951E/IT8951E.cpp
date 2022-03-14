@@ -1,4 +1,5 @@
-#include "IT8941E.h"
+//#include "IT8941E.h"
+#include "IT8951E.h"
 #include "esphome/core/log.h"
 #include "esphome/core/application.h"
 #include "esphome/core/helpers.h"
