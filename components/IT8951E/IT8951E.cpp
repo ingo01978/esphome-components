@@ -126,7 +126,7 @@ void it8951e::initialize() {
 
   //Get Device Info
  // this->GetIT8951SystemInfo();
-  this->GetIT8951DevInfo();
+  this->IT8951DevInfo();
 
   if (!this->gstI80DevInfo.usPanelW || !this->gstI80DevInfo.usPanelH) {
     return;
